@@ -33,9 +33,9 @@ while True:
         print("Elephant detected")
         b="2"
         # ser.write(b.encode())
-        requests.get("https://blynk.cloud/external/api/update?token=GVSPp5gNZld23s9eHSZpL-FUf472F-Y6&v0=50")
+        requests.get("https://blynk.cloud/external/api/update?token=YOUR_AUTH_KEY&v0=50")
         time.sleep(0.2)
-        val=requests.get("https://blynk.cloud/external/api/update?token=GVSPp5gNZld23s9eHSZpL-FUf472F-Y6&v0=0")
+        val=requests.get("https://blynk.cloud/external/api/update?token=YOUR_AUTH_KEY6&v0=0")
 
  
 
